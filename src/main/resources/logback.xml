@@ -1,0 +1,17 @@
+<configuration>
+    <conversionRule conversionWord="coloredLevel" converterClass="play.api.libs.logback.ColoredLevel" />
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%coloredLevel %logger{15} - %message%n%xException{10}</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.apache.pdfbox.pdmodel.font.PDFont" level="FATAL" />
+    <logger name="org.apache.pdfbox" level="FATAL" />
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
+
+</configuration>
