@@ -192,7 +192,13 @@ $ sbt "runMain iproduct.tools.ExportPagesFromWarc --warc=./data/sample.warc.gz -
 See the [license file](license.txt) for license rights and limitations (GNU GPLv3).
 
 
+## Acknowledgments
+We gratefully acknowledge financial support from the U.S. NSF (award number 1645264) and the European Patent Office.
+We are also grateful to <a href="http://commoncrawl.org">CommonCrawl</a>, <a href="http://scitas.epfl.ch">EPFL-Scitas</a> and <a href="http://www.cscs.ch">CSCS</a> teams for providing access to their infrastructure and support.
+
+
 ## See also
+- [IPRoduct project](http://iproduct.epfl.ch)
 - [run spark on amazon ec2](readme_run_spark_on_amazon_ec2.md)
 - [classifier1](readme_classifier1.md)
 - [infer grammar](readme_inferGrammar.md)
